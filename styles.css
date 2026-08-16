@@ -1,14 +1,14 @@
-/* Smart Training — legal pages */
+/* Progresso — legal pages */
 
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&family=Unbounded:wght@500;600;700&display=swap");
 
 :root {
   --bg: #000000;
-  --bg-panel: rgba(28, 28, 30, 0.78);
+  --bg-panel: rgba(28, 28, 31, 0.78);
   --text: #ffffff;
-  --text-muted: #9e9ea3;
+  --text-muted: #9e9ea6;
   --accent: #ef3124;
-  --run: #33d64a;
+  --run: #33d74a;
   --gym: #bf59f2;
   --border: rgba(255, 255, 255, 0.1);
   --font: "Karla", "Segoe UI", system-ui, sans-serif;
@@ -84,7 +84,10 @@ a:hover {
   width: 32px;
   height: 32px;
   border-radius: 8px;
-  box-shadow: 0 0 18px rgba(239, 49, 36, 0.35);
+  box-shadow:
+    0 0 0 1px var(--border),
+    0 0 16px rgba(191, 89, 242, 0.32),
+    0 6px 18px rgba(139, 92, 246, 0.2);
 }
 
 .header-tools {
