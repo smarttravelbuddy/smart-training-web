@@ -4,9 +4,9 @@
   data-title-ru="Прогрессо — дневник пробежек и тренировок в зале"
   data-title-be="Прагрэса — дзённік прабежак і трэніровак у зале"
   data-title-en="Progresso — outdoor runs and gym sessions in one journal"
-  data-desc-ru="Прогрессо: офлайн-дневник пробежек и зала. «Идёт запись», карта треков, история, фото и голосовые — на iPhone."
-  data-desc-be="Прагрэса: афлайн-дзённік прабежак і залы. «Ідзе запіс», мапа трэкаў, гісторыя, фота і галасавыя — на iPhone."
-  data-desc-en="Progresso: offline journal for GPS runs and gym sessions. Recording toggle, map, history, photos and voice notes — on your iPhone."
+  data-desc-ru="Прогрессо: офлайн-дневник пробежек и зала. «Идёт запись», силовой журнал, ритм недели, Face ID — на iPhone."
+  data-desc-be="Прагрэса: афлайн-дзённік прабежак і залы. «Ідзе запіс», сілавы дзённік, рытм тыдня, Face ID — на iPhone."
+  data-desc-en="Progresso: offline journal for GPS runs and gym workouts. Recording toggle, strength log, weekly rhythm, Face ID — on iPhone."
 >
   <head>
     <meta charset="utf-8" />
@@ -14,7 +14,7 @@
     <title>Прогрессо — дневник пробежек и тренировок в зале</title>
     <meta
       name="description"
-      content="Прогрессо: офлайн-дневник пробежек и зала. «Идёт запись», карта треков, история, фото и голосовые — на iPhone."
+      content="Прогрессо: офлайн-дневник пробежек и зала. «Идёт запись», силовой журнал, ритм недели, Face ID — на iPhone."
     />
     <meta name="theme-color" content="#000000" />
     <link rel="icon" type="image/png" href="assets/app-icon.png?v=2" />
@@ -71,7 +71,8 @@
               <h1>Дневник пробежек и тренировок в зале в одном месте</h1>
               <p class="hero-lead">
                 Один дневник для пробежек и зала — работает офлайн на вашем iPhone. Пробежки с
-                «Идёт запись», зал без GPS, фото и голосовые на устройстве.
+                «Идёт запись», силовой журнал с таймером отдыха, ритм недели без streaks и
+                рефлексия после тренировки. Без аккаунта и облака.
               </p>
               <div class="hero-cta">
                 <a class="btn-primary" href="https://apps.apple.com/" rel="noopener"
@@ -119,8 +120,9 @@
                 <p class="lap-kicker">Круг 01 · Карта</p>
                 <h2>Треки сохранённых пробежек на вкладке «Карта»</h2>
                 <p>
-                  Трек пишется только пока включена «Идёт запись». Always Location — для фона
-                  записи и опциональных геозон «Дом / Зал». На карте видны треки сохранённых
+                  Трек пишется только пока включена «Идёт запись» — явный переключатель под вашим
+                  контролем. Пауза и продолжение; длительность без пауз. Always Location — только
+                  для фона записи и опциональных геозон «Дом / Зал». На карте — треки сохранённых
                   пробежек.
                 </p>
               </div>
@@ -144,7 +146,8 @@
                 <p>
                   Запись трека на карте с явным переключателем «Идёт запись». Сила, кардио или
                   смешанная — без GPS-трека. Фото и голосовые заметки остаются на устройстве, пока
-                  вы сами не поделитесь.
+                  вы сами не поделитесь. Ежедневное напоминание о тренировке — локальное
+                  уведомление.
                 </p>
               </div>
               <div class="lap-visual">
@@ -162,12 +165,12 @@
             <article class="lap">
               <span class="lap-node" aria-hidden="true"></span>
               <div class="lap-copy">
-                <p class="lap-kicker">Круг 03 · Приватность</p>
-                <h2>Приватность по умолчанию</h2>
+                <p class="lap-kicker">Круг 03 · История</p>
+                <h2>Все сессии и фильтр «Пробежки / Зал»</h2>
                 <p>
-                  Опциональный Face ID для журнала, SMS с координатами и напоминания. Геозоны «Дом /
-                  Зал» — локальные уведомления при входе в зону. История с фильтром «Все / Пробежки
-                  / Зал».
+                  Просматривайте все записи или фильтруйте по типу. Откройте сессию — метрики,
+                  карта трека, силовой журнал, заметки, фото и голосовые. Свайп удаляет запись с
+                  устройства.
                 </p>
               </div>
               <div class="lap-visual">
@@ -183,21 +186,76 @@
             </article>
           </section>
 
+          <section class="features">
+            <div class="features-head">
+              <h2>Больше, чем трекер</h2>
+              <p>
+                Прогрессо — личный дневник без соревнований и подписок. Все функции работают
+                офлайн; аккаунт не нужен.
+              </p>
+            </div>
+            <div class="features-grid">
+              <article class="feature-card feature-card--gym">
+                <h3>Силовой журнал</h3>
+                <p>
+                  Упражнения, подходы, повторы и вес. Таймер отдыха между подходами и «Как в прошлый
+                  раз» для быстрого повтора шаблона.
+                </p>
+              </article>
+              <article class="feature-card feature-card--run">
+                <h3>Ритм недели</h3>
+                <p>
+                  Спокойная локальная сводка пробежек и зала за последние недели — без streaks,
+                  бейджей и давления.
+                </p>
+              </article>
+              <article class="feature-card feature-card--accent">
+                <h3>Рефлексия</h3>
+                <p>
+                  Необязательные подсказки после тренировки: самочувствие 1–5, что получилось и что
+                  было сложно, голосовая заметка.
+                </p>
+              </article>
+              <article class="feature-card feature-card--gym">
+                <h3>Face ID для журнала</h3>
+                <p>
+                  Опциональный замок закрывает «Историю» и детали сессий до разблокировки. Можно
+                  включить в любой момент.
+                </p>
+              </article>
+              <article class="feature-card feature-card--run">
+                <h3>Геозоны «Дом / Зал»</h3>
+                <p>
+                  Сохраните точки и получайте локальное уведомление при входе в зону — с
+                  предложением записать тренировку.
+                </p>
+              </article>
+              <article class="feature-card feature-card--accent">
+                <h3>Экстренный SMS</h3>
+                <p>
+                  Выберите контакт и отправьте координаты через Messages со ссылкой Apple Maps.
+                  Каждая отправка — только по вашему действию.
+                </p>
+              </article>
+            </div>
+          </section>
+
           <section class="data-band">
             <div class="data-band-inner">
               <div>
                 <h2>Данные — на устройстве</h2>
                 <p>
                   Offline-first: сессии, фото и голосовые остаются на устройстве, пока вы сами не
-                  поделитесь. Облачное хранилище не требуется. ATT опционален и не блокирует
-                  дневник.
+                  поделитесь. Облачное хранилище и аккаунт не требуются. ATT опционален и не
+                  блокирует дневник.
                 </p>
               </div>
               <ul class="data-list">
-                <li>Сессии, треки, заметки и настройки — локально</li>
+                <li>Сессии, треки, силовой журнал и настройки — локально</li>
                 <li>Геолокация — для пробежки и геозон «Дом / Зал»</li>
                 <li>Камера, микрофон, контакты — по вашему действию</li>
-                <li>Языки: русский, белорусский, английский</li>
+                <li>Бесплатно, без подписки и встроенных покупок</li>
+                <li>Языки: русский, белорусский, английский · iOS 15.1+</li>
               </ul>
             </div>
           </section>
@@ -217,7 +275,8 @@
               <h1>Дзённік прабежак і трэніровак у зале ў адным месцы</h1>
               <p class="hero-lead">
                 Адзін дзённік для прабежак і залы — працуе афлайн на вашым iPhone. Прабежкі з
-                «Ідзе запіс», зала без GPS, фота і галасавыя на прыладзе.
+                «Ідзе запіс», сілавы дзённік з таймерам адпачынку, рытм тыдня без streaks і
+                рэфлексія пасля трэніроўкі. Без акаўнта і воблака.
               </p>
               <div class="hero-cta">
                 <a class="btn-primary" href="https://apps.apple.com/" rel="noopener"
@@ -265,8 +324,9 @@
                 <p class="lap-kicker">Круг 01 · Карта</p>
                 <h2>Трэкі захаваных прабежак на ўкладцы «Карта»</h2>
                 <p>
-                  Трэк пішацца толькі пакуль уключаны «Ідзе запіс». Always Location — для фону
-                  запісу і апцыянальных геазон «Дом / Зала». На мапе бачныя трэкі захаваных
+                  Трэк пішаецца толькі пакуль уключаны «Ідзе запіс» — відавочны пераключальнік пад
+                  вашым кантролем. Паўза і працяг; працягласць без паўзаў. Always Location — толькі
+                  для фону запісу і апцыянальных геазон «Дом / Зала». На мапе — трэкі захаваных
                   прабежак.
                 </p>
               </div>
@@ -288,9 +348,9 @@
                 <p class="lap-kicker">Круг 02 · Галоўная</p>
                 <h2>Пачаць прабежку або трэніроўку ў зале</h2>
                 <p>
-                  Запіс трэка на карце з відавочным пераключальнікам. Сіла, кардыё ці змешаная —
-                  без GPS-трэка. Фота і галасавыя нататкі застаюцца на прыладзе, пакуль вы самі не
-                  падзеліцеся.
+                  Запіс трэка на карце з відавочным пераключальнікам «Ідзе запіс». Сіла, кардыё ці
+                  змешаная — без GPS-трэка. Фота і галасавыя нататкі застаюцца на прыладзе, пакуль
+                  вы самі не падзеліцеся. Штодзённы напамін пра трэніроўку — лакальнае апавяшчэнне.
                 </p>
               </div>
               <div class="lap-visual">
@@ -308,12 +368,11 @@
             <article class="lap">
               <span class="lap-node" aria-hidden="true"></span>
               <div class="lap-copy">
-                <p class="lap-kicker">Круг 03 · Прыватнасць</p>
-                <h2>Прыватнасць па змаўчанні</h2>
+                <p class="lap-kicker">Круг 03 · Гісторыя</p>
+                <h2>Усе сесіі і фільтр «Прабежкі / Зала»</h2>
                 <p>
-                  Опцыянальны Face ID для дзённіка, SMS з каардынатамі і напаміны. Геазоны «Дом /
-                  Зала» — лакальныя апавяшчэнні пры ўваходзе ў зону. Гісторыя з фільтрам «Усе /
-                  Прабежкі / Зала».
+                  Праглядайце ўсе запісы або фільтруйце па тыпе. Адкрыйце сесію — метрыкі, мапа
+                  трэка, сілавы дзённік, нататкі, фота і галасавыя. Свайп выдаляе запіс з прылады.
                 </p>
               </div>
               <div class="lap-visual">
@@ -329,20 +388,77 @@
             </article>
           </section>
 
+
+          <section class="features">
+            <div class="features-head">
+              <h2>Больш, чым трэкер</h2>
+              <p>
+                Прагрэса — асабісты дзённік без спаборніцтва і падпісак. Усе функцыі працуюць
+                афлайн; акаўнт не патрэбны.
+              </p>
+            </div>
+            <div class="features-grid">
+              <article class="feature-card feature-card--gym">
+                <h3>Сілавы дзённік</h3>
+                <p>
+                  Практыкі, падыходы, паўторы і вага. Таймер адпачынку паміж падыходамі і «Як у
+                  мінулы раз» для хуткага паўтору шаблона.
+                </p>
+              </article>
+              <article class="feature-card feature-card--run">
+                <h3>Рытм тыдня</h3>
+                <p>
+                  Спакойная лакальная зводка прабежак і залы за апошнія тыдні — без streaks, бэйджаў
+                  і ціску.
+                </p>
+              </article>
+              <article class="feature-card feature-card--accent">
+                <h3>Рэфлексія</h3>
+                <p>
+                  Неабавязковыя падказкі пасля трэніроўкі: самаадчуванне 1–5, што атрымалася і што
+                  было складана, галасавая нататка.
+                </p>
+              </article>
+              <article class="feature-card feature-card--gym">
+                <h3>Face ID для дзённіка</h3>
+                <p>
+                  Опцыянальны замок закрывае «Гісторыю» і дэталі сесій да разблакіроўкі. Можна
+                  уключыць у любой момант.
+                </p>
+              </article>
+              <article class="feature-card feature-card--run">
+                <h3>Геазоны «Дом / Зала»</h3>
+                <p>
+                  Захавайце кропкі і атрымлівайце лакальнае апавяшчэнне пры ўваходзе ў зону — з
+                  прапановай запісаць трэніроўку.
+                </p>
+              </article>
+              <article class="feature-card feature-card--accent">
+                <h3>Экстренны SMS</h3>
+                <p>
+                  Выберыце кантакт і дашліце каардынаты праз Messages са спайкай Apple Maps. Кожная
+                  адправка — толькі па вашым дзеянні.
+                </p>
+              </article>
+            </div>
+          </section>
+
           <section class="data-band">
             <div class="data-band-inner">
               <div>
                 <h2>Даныя — на прыладзе</h2>
                 <p>
                   Offline-first: сесіі, фота і галасавыя застаюцца на прыладзе, пакуль вы самі не
-                  падзеліцеся. Воблачнае сховішча не патрэбна. ATT апцыянальны.
+                  падзеліцеся. Воблачнае сховішча і акаўнт не патрэбныя. ATT апцыянальны і не
+                  блакуе дзённік.
                 </p>
               </div>
               <ul class="data-list">
-                <li>Сесіі, трэкі, нататкі і налады — лакальна</li>
+                <li>Сесіі, трэкі, сілавы дзённік і налады — лакальна</li>
                 <li>Геалакацыя — для прабежкі і геазон «Дом / Зала»</li>
                 <li>Камера, мікрафон, кантакты — па вашым дзеянні</li>
-                <li>Мовы: беларуская, руская, англійская</li>
+                <li>Бесплатна, без падпіскі і ўбудаваных пакупак</li>
+                <li>Мовы: беларуская, руская, англійская · iOS 15.1+</li>
               </ul>
             </div>
           </section>
@@ -362,7 +478,8 @@
               <h1>Log outdoor runs and gym sessions in one journal</h1>
               <p class="hero-lead">
                 One journal for outdoor runs and gym sessions — built to work offline on your iPhone.
-                GPS runs with Recording toggle, gym sessions, photos and voice notes on device.
+                GPS runs with Recording toggle, strength log with rest timer, weekly rhythm without
+                streaks, and optional post-workout reflection. No account or cloud required.
               </p>
               <div class="hero-cta">
                 <a class="btn-primary" href="https://apps.apple.com/" rel="noopener"
@@ -410,9 +527,9 @@
                 <p class="lap-kicker">Lap 01 · Map</p>
                 <h2>Saved run tracks on the Map tab</h2>
                 <p>
-                  Your track is written only while Recording is on. Always location covers background
-                  tracking and optional Home / Gym geofences. The Map tab shows tracks from your
-                  saved runs.
+                  Your track is written only while Recording is on — a clear toggle you control.
+                  Pause and resume; duration excludes pauses. Always location is only for background
+                  recording and optional Home / Gym geofences. The Map tab shows saved run tracks.
                 </p>
               </div>
               <div class="lap-visual">
@@ -433,9 +550,9 @@
                 <p class="lap-kicker">Lap 02 · Train</p>
                 <h2>Start a run or a gym session</h2>
                 <p>
-                  Record a track on the map with an explicit recording toggle. Strength, cardio, or
+                  Record a track on the map with an explicit Recording toggle. Strength, cardio, or
                   mixed — no GPS track required. Photos and voice notes stay on your device until
-                  you share them.
+                  you share them. Daily training reminder — a local notification.
                 </p>
               </div>
               <div class="lap-visual">
@@ -453,12 +570,11 @@
             <article class="lap">
               <span class="lap-node" aria-hidden="true"></span>
               <div class="lap-copy">
-                <p class="lap-kicker">Lap 03 · Privacy</p>
-                <h2>Private by default</h2>
+                <p class="lap-kicker">Lap 03 · History</p>
+                <h2>All sessions with Runs / Gym filter</h2>
                 <p>
-                  Optional Face ID journal lock, emergency SMS coordinates, and reminders. Home / Gym
-                  geofences send local notifications when you enter a zone. History with All / Runs /
-                  Gym filter.
+                  Browse every entry or filter by type. Open a session for metrics, run map, strength
+                  log, notes, photos, and voice memos. Swipe to delete a record from your device.
                 </p>
               </div>
               <div class="lap-visual">
@@ -474,21 +590,77 @@
             </article>
           </section>
 
+
+          <section class="features">
+            <div class="features-head">
+              <h2>More than a tracker</h2>
+              <p>
+                Progresso is a personal journal without competitions or subscriptions. Everything
+                works offline — no account needed.
+              </p>
+            </div>
+            <div class="features-grid">
+              <article class="feature-card feature-card--gym">
+                <h3>Strength journal</h3>
+                <p>
+                  Exercises, sets, reps, and weight. Rest timer between sets and “Like last time” to
+                  repeat your previous template quickly.
+                </p>
+              </article>
+              <article class="feature-card feature-card--run">
+                <h3>Weekly rhythm</h3>
+                <p>
+                  A calm local summary of recent runs and gym sessions — no streaks, badges, or
+                  pressure.
+                </p>
+              </article>
+              <article class="feature-card feature-card--accent">
+                <h3>Post-workout reflection</h3>
+                <p>
+                  Optional prompts after saving: wellbeing 1–5, what went well, what was hard, and an
+                  optional voice note.
+                </p>
+              </article>
+              <article class="feature-card feature-card--gym">
+                <h3>Face ID journal lock</h3>
+                <p>
+                  Optional lock protects History and session details until you unlock. Enable anytime
+                  in Settings.
+                </p>
+              </article>
+              <article class="feature-card feature-card--run">
+                <h3>Home / Gym geofences</h3>
+                <p>
+                  Save locations and get a local notification when you enter a zone — with a nudge to
+                  log a workout.
+                </p>
+              </article>
+              <article class="feature-card feature-card--accent">
+                <h3>Emergency SMS</h3>
+                <p>
+                  Pick a contact and send your coordinates via Messages with an Apple Maps link. You
+                  initiate every send.
+                </p>
+              </article>
+            </div>
+          </section>
+
           <section class="data-band">
             <div class="data-band-inner">
               <div>
                 <h2>Data stays on device</h2>
                 <p>
                   Offline-first: sessions, photos, and voice notes stay on this device unless you
-                  share them. No cloud storage required. ATT is optional and never blocks the
-                  journal.
+                  share them. No cloud storage or account required. ATT is optional and never blocks
+                  the journal.
                 </p>
               </div>
               <ul class="data-list">
-                <li>Sessions, tracks, notes, and settings — local</li>
+                <li>Sessions, tracks, strength log, and settings — local</li>
                 <li>Location — for runs and Home / Gym geofences</li>
                 <li>Camera, mic, contacts — on your action</li>
-                <li>Languages: English, Russian, Belarusian</li>
+                <li>Free — no subscription or in-app purchases</li>
+                <li>Languages: English, Russian, Belarusian · iOS 15.1+</li>
               </ul>
             </div>
           </section>

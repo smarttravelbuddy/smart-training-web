@@ -7,9 +7,9 @@
   --bg-panel: rgba(28, 28, 31, 0.78);
   --text: #ffffff;
   --text-muted: #9e9ea6;
-  --accent: #ef3124;
-  --run: #33d74a;
-  --gym: #bf59f2;
+  --accent: #f7394a;
+  --run: #80cb41;
+  --gym: #b64cd9;
   --border: rgba(255, 255, 255, 0.1);
   --font: "Karla", "Segoe UI", system-ui, sans-serif;
   --display: "Unbounded", "Avenir Next", sans-serif;
@@ -34,8 +34,8 @@ body {
   font-family: var(--font);
   color: var(--text);
   background:
-    radial-gradient(ellipse 55% 35% at 90% 0%, rgba(239, 49, 36, 0.16) 0%, transparent 55%),
-    radial-gradient(ellipse 40% 30% at 10% 90%, rgba(51, 214, 74, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse 55% 35% at 90% 0%, rgba(247, 57, 74, 0.16) 0%, transparent 55%),
+    radial-gradient(ellipse 40% 30% at 10% 90%, rgba(128, 203, 65, 0.08) 0%, transparent 50%),
     var(--bg);
   min-height: 100vh;
   line-height: 1.65;
@@ -86,7 +86,7 @@ a:hover {
   border-radius: 8px;
   box-shadow:
     0 0 0 1px var(--border),
-    0 0 16px rgba(191, 89, 242, 0.32),
+    0 0 16px rgba(182, 76, 217, 0.32),
     0 6px 18px rgba(139, 92, 246, 0.2);
 }
 
